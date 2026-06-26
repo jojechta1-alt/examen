@@ -1,0 +1,53 @@
+{
+  "descripcion": "Dataset de entrenamiento para el clasificador de escenas de Chrono-Vision. Cada entrada combina una foto (actual o histórica) con la información del sitio. label = clase objetivo del modelo TensorFlow.",
+  "clases": ["calle_urbana", "sitio_arqueologico", "paisaje_natural", "zona_industrial"],
+  "muestras": [
+    {
+      "imagen_url": "https://storage.example.com/dataset/comas_calle_01.jpg",
+      "sitio_id": "lima_norte_001",
+      "anio": 2010,
+      "label": "calle_urbana",
+      "elementos_etiquetados": [
+        { "tipo": "edificio", "alto_relativo": 0.6 },
+        { "tipo": "vegetacion", "alto_relativo": 0.2 }
+      ]
+    },
+    {
+      "imagen_url": "https://storage.example.com/dataset/comas_calle_02.jpg",
+      "sitio_id": "lima_norte_001",
+      "anio": 2015,
+      "label": "calle_urbana",
+      "elementos_etiquetados": [
+        { "tipo": "edificio", "alto_relativo": 0.7 }
+      ]
+    },
+    {
+      "imagen_url": "https://storage.example.com/dataset/puruchuco_01.jpg",
+      "sitio_id": "lima_norte_002",
+      "anio": 1995,
+      "label": "sitio_arqueologico",
+      "elementos_etiquetados": [
+        { "tipo": "edificio", "alto_relativo": 0.15 }
+      ]
+    },
+    {
+      "imagen_url": "https://storage.example.com/dataset/rio_chillon_01.jpg",
+      "sitio_id": "lima_norte_003",
+      "anio": 2005,
+      "label": "paisaje_natural",
+      "elementos_etiquetados": [
+        { "tipo": "vegetacion", "alto_relativo": 0.4 }
+      ]
+    },
+    {
+      "imagen_url": "https://storage.example.com/dataset/independencia_industrial_01.jpg",
+      "sitio_id": "lima_norte_004",
+      "anio": 2000,
+      "label": "zona_industrial",
+      "elementos_etiquetados": [
+        { "tipo": "edificio", "alto_relativo": 0.5 }
+      ]
+    }
+  ],
+  "nota": "Esto es una plantilla con 5 muestras de ejemplo. Para producción, Jota debe reemplazar imagen_url con fotos reales de SciELO/archivos municipales/fotos propias de Lima Norte y ampliar a al menos 30-50 muestras por clase para un entrenamiento estable."
+}
