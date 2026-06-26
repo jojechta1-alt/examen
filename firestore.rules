@@ -1,0 +1,29 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Catálogo de sitios y registros históricos: lectura pública (datos del examen),
+    // escritura solo vía consola/admin (Cloud Functions usa el SDK admin y se salta estas reglas).
+    match /sitios/{sitioId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /registros_historicos/{registroId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // Reconstrucciones generadas: solo lectura, las crea la Cloud Function.
+    match /reconstrucciones/{reconstruccionId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // Exploraciones del usuario autenticado.
+    match /exploraciones/{exploracionId} {
+      allow read, create: if request.auth != null;
+      allow update, delete: if false;
+    }
+  }
+}

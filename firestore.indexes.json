@@ -1,0 +1,13 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "registros_historicos",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "sitio_id", "order": "ASCENDING" },
+        { "fieldPath": "anio", "order": "ASCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
