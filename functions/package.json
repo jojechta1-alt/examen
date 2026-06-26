@@ -1,0 +1,15 @@
+{
+  "name": "chrono-vision-functions",
+  "description": "Cloud Functions para Chrono-Vision: orquesta el modelo de ML y Firestore",
+  "engines": {
+    "node": "20"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.22.0",
+    "firebase-admin": "^12.0.0",
+    "firebase-functions": "^5.0.0",
+    "node-fetch": "^2.7.0"
+  },
+  "private": true
+}
