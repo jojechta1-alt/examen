@@ -1,0 +1,180 @@
+[
+  {
+    "id": "place_001",
+    "name": "Gran Torre Central",
+    "description_ruins": "Una torre de comunicaciones destruida, cubierta de vegetación y con la mitad de su estructura colapsada.",
+    "description_past": "La torre más alta de la ciudad en 2010, símbolo de progreso tecnológico con más de 300 metros de altura.",
+    "coordinates": { "x": 0, "y": 0, "z": -20 },
+    "year_past": 2010,
+    "year_current": 2077,
+    "category": "arquitectura",
+    "historical_info": "Construida en 1998, fue el centro de telecomunicaciones más importante de la región. Albergó oficinas de más de 50 empresas tecnológicas.",
+    "audio_narration": "audios/torre_central.mp3",
+    "image_ruins": "images/torre_central_ruins.jpg",
+    "image_past": "images/torre_central_past.jpg",
+    "image_reconstructed": "images/torre_central_reconstructed.jpg",
+    "ml_tags": ["edificio", "torre", "comunicaciones", "destruido"],
+    "events": [
+      {
+        "year": 1998,
+        "event": "Construcción completada"
+      },
+      {
+        "year": 2010,
+        "event": "Máximo apogeo, 50,000 visitantes al año"
+      },
+      {
+        "year": 2045,
+        "event": "Primera explosión durante el conflicto"
+      },
+      {
+        "year": 2077,
+        "event": "Estado actual: 40% en pie"
+      }
+    ]
+  },
+  {
+    "id": "place_002",
+    "name": "Mercado Central",
+    "description_ruins": "Estructura de metal oxidado y cristales rotos. El techo se ha hundido parcialmente y la vegetación invade los pasillos.",
+    "description_past": "El corazón comercial de la ciudad. Miles de personas lo visitaban cada día para comprar desde alimentos frescos hasta artesanías.",
+    "coordinates": { "x": 15, "y": 0, "z": -10 },
+    "year_past": 2010,
+    "year_current": 2077,
+    "category": "comercio",
+    "historical_info": "Fundado en 1923, el Mercado Central fue declarado Patrimonio Cultural en 2005. Contaba con 500 puestos y empleaba a más de 2000 personas.",
+    "audio_narration": "audios/mercado_central.mp3",
+    "image_ruins": "images/mercado_ruins.jpg",
+    "image_past": "images/mercado_past.jpg",
+    "image_reconstructed": "images/mercado_reconstructed.jpg",
+    "ml_tags": ["mercado", "comercio", "estructura", "histórico"],
+    "events": [
+      {
+        "year": 1923,
+        "event": "Fundación del mercado"
+      },
+      {
+        "year": 2005,
+        "event": "Declarado Patrimonio Cultural"
+      },
+      {
+        "year": 2050,
+        "event": "Abandono masivo durante la crisis"
+      },
+      {
+        "year": 2077,
+        "event": "En ruinas, solo la estructura metálica permanece"
+      }
+    ]
+  },
+  {
+    "id": "place_003",
+    "name": "Parque de la Memoria",
+    "description_ruins": "Un parque convertido en selva urbana. Las estatuas están caídas y el lago artificial está seco y agrietado.",
+    "description_past": "Hermoso parque público con lago, jardines, y esculturas modernas. Era el pulmón verde de la ciudad.",
+    "coordinates": { "x": -20, "y": 0, "z": -15 },
+    "year_past": 2010,
+    "year_current": 2077,
+    "category": "espacio_publico",
+    "historical_info": "Inaugurado en 2001 en honor a las víctimas de conflictos pasados. El lago artificial tenía 2 hectáreas y era hogar de diversas especies de aves.",
+    "audio_narration": "audios/parque_memoria.mp3",
+    "image_ruins": "images/parque_ruins.jpg",
+    "image_past": "images/parque_past.jpg",
+    "image_reconstructed": "images/parque_reconstructed.jpg",
+    "ml_tags": ["parque", "naturaleza", "monumento", "lago"],
+    "events": [
+      {
+        "year": 2001,
+        "event": "Inauguración oficial"
+      },
+      {
+        "year": 2010,
+        "event": "Premio al mejor espacio verde urbano"
+      },
+      {
+        "year": 2060,
+        "event": "Sistema de agua cortado, el lago se seca"
+      },
+      {
+        "year": 2077,
+        "event": "La naturaleza reclama el espacio"
+      }
+    ]
+  },
+  {
+    "id": "place_004",
+    "name": "Estación de Tren Norte",
+    "description_ruins": "Arcos de piedra aún en pie, pero los rieles están doblados y oxidados. Vagones abandonados yacen descarrilados.",
+    "description_past": "Estación ferroviaria principal que conectaba la ciudad con el resto del país. Procesaba 100,000 pasajeros diarios.",
+    "coordinates": { "x": 25, "y": 0, "z": 10 },
+    "year_past": 2010,
+    "year_current": 2077,
+    "category": "transporte",
+    "historical_info": "Construida en 1887, es una de las estructuras más antiguas de la ciudad. Su arquitectura neoclásica fue restaurada en 1990 y declarada monumento histórico.",
+    "audio_narration": "audios/estacion_norte.mp3",
+    "image_ruins": "images/estacion_ruins.jpg",
+    "image_past": "images/estacion_past.jpg",
+    "image_reconstructed": "images/estacion_reconstructed.jpg",
+    "ml_tags": ["estacion", "tren", "transporte", "histórico", "arcos"],
+    "events": [
+      {
+        "year": 1887,
+        "event": "Construcción original"
+      },
+      {
+        "year": 1990,
+        "event": "Gran restauración arquitectónica"
+      },
+      {
+        "year": 2010,
+        "event": "100,000 pasajeros diarios en su época de oro"
+      },
+      {
+        "year": 2055,
+        "event": "Último tren sale de la estación"
+      },
+      {
+        "year": 2077,
+        "event": "Los arcos resisten, el resto en ruinas"
+      }
+    ]
+  },
+  {
+    "id": "place_005",
+    "name": "Hospital San Rafael",
+    "description_ruins": "Edificio de 10 pisos con ventanas rotas. Camillas y equipos médicos oxidados visibles desde el exterior.",
+    "description_past": "Centro médico de excelencia con 800 camas y tecnología de punta. Salvó millones de vidas durante décadas.",
+    "coordinates": { "x": -10, "y": 0, "z": 20 },
+    "year_past": 2010,
+    "year_current": 2077,
+    "category": "salud",
+    "historical_info": "Fundado en 1955 por la Orden de San Rafael. Fue el primer hospital en la región en realizar trasplantes de órganos en 1982. Tenía 3,000 empleados.",
+    "audio_narration": "audios/hospital_rafael.mp3",
+    "image_ruins": "images/hospital_ruins.jpg",
+    "image_past": "images/hospital_past.jpg",
+    "image_reconstructed": "images/hospital_reconstructed.jpg",
+    "ml_tags": ["hospital", "salud", "edificio", "médico"],
+    "events": [
+      {
+        "year": 1955,
+        "event": "Fundación por la Orden de San Rafael"
+      },
+      {
+        "year": 1982,
+        "event": "Primer trasplante de riñón de la región"
+      },
+      {
+        "year": 2010,
+        "event": "800 camas y 3000 empleados en su máximo"
+      },
+      {
+        "year": 2048,
+        "event": "Usado como refugio durante el conflicto"
+      },
+      {
+        "year": 2077,
+        "event": "Abandonado, estructura parcialmente en pie"
+      }
+    ]
+  }
+]

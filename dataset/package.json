@@ -1,0 +1,16 @@
+{
+  "name": "dataset",
+  "version": "1.0.0",
+  "description": "``` dataset/ ├── places.json          → 5 lugares históricos con datos completos ├── seed-firestore.js    → Script para subir todo a Firebase ├── firestore.rules      → Reglas de seguridad para Firestore ├── storage.rules        → Reglas de seguridad para Storage └── placeholder-images/  → Crea esta carpeta y agrega tus imágenes ```",
+  "main": "seed-firestore.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "firebase-admin": "^14.1.0"
+  }
+}

@@ -1,0 +1,23 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    // ── Imágenes de lugares: lectura pública, escritura solo admin ──
+    match /images/{imageId} {
+      allow read: if true;
+      allow write: if request.auth != null && request.auth.token.admin == true;
+    }
+
+    // ── Audios: lectura pública, escritura solo admin ──
+    match /audios/{audioId} {
+      allow read: if true;
+      allow write: if request.auth != null && request.auth.token.admin == true;
+    }
+
+    // ── Imágenes reconstruidas por ML: cualquier usuario autenticado puede subir ──
+    match /reconstructed/{userId}/{imageId} {
+      allow read: if true;
+      allow write: if request.auth != null && request.auth.uid == userId;
+    }
+  }
+}
